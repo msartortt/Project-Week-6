@@ -77,8 +77,6 @@ for link in flat_list:
 
 # save to a file as the code was too heavy and I don't want to have to run it every time
 
-movies_ratings_imdb = imdb_ratings.drop_duplicates(subset=['Movie Id'], keep='last')
+movies_ratings_imdb.dropna(subset = ['All Ages'], inplace = True)
 movies_ratings_imdb.to_csv('movies_ratings_imdb_2021.csv', index=False)
-
-len(movies_ratings_imdb) # Total amount of movies with ratings
-len(link_erro) # Total amount of movies without ratings
+movies_ratings_imdb.to_excel('movies_ratings_2021.xlsx', sheet_name='ratings', index=False)

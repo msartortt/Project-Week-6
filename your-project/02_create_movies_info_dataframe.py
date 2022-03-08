@@ -143,3 +143,4 @@ for link in flat_list:
 movies_data = pd.DataFrame(data)
 movies_data.drop_duplicates(subset=['imdbID'], keep='last')
 movies_data.to_csv('movies_data_2021.csv', index=False)
+movies_data.to_excel('movies_data_2021.xlsx', sheet_name='data', index=False)
