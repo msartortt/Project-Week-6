@@ -1,6 +1,6 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
+# The Next Movie to Make: an IMBD analysis
 Matheus Sartortt
 
 - [Cohort](https://my.ironhack.com/cohorts/5f60a919b77d4c478c04cf99/profile) 
