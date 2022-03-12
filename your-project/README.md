@@ -3,7 +3,7 @@
 # The Next Movie to Make: an IMBD analysis
 Matheus Sartortt
 
-- [Cohort](https://my.ironhack.com/cohorts/5f60a919b77d4c478c04cf99/profile) 
+- [Cohort](https://profiles.ironhack.com/matheus-sartortt) 
 - Campus: Ironhack Lisbon
 - Date: March 12th 2022
 
