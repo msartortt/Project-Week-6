@@ -3,9 +3,9 @@
 # Title of My Project
 Matheus Sartortt
 
-[Cohort](https://my.ironhack.com/cohorts/5f60a919b77d4c478c04cf99/profile) 
-Campus: Ironhack LIsbon
-Date: March 12th 2022
+- [Cohort](https://my.ironhack.com/cohorts/5f60a919b77d4c478c04cf99/profile) 
+- Campus: Ironhack Lisbon
+- Date: March 12th 2022
 
 ## Content
 - [Project Description](#project-description)
