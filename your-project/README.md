@@ -23,14 +23,14 @@ The main challenge of this project was to create a webscraping code to collect d
 
 ## Hypotheses / Questions
 1. Evaluating the country where the movie was shot:
-a. Does a movie shot in the USA have better ROI?
-b. Does a movie shot in the USA have better ratings?
-c. Does a movie shot in the USA have more award nominations?
+- Does a movie shot in the USA have better ROI?
+- Does a movie shot in the USA have better ratings?
+- Does a movie shot in the USA have more award nominations?
 
 2. Evaluating the language spoken on the movie:
-a. Does a movie shot in English have better ROI?
-b. Does a movie shot in the English have better ratings?
-c. Does a movie shot in the English have more award nominations?
+- Does a movie shot in English have better ROI?
+- Does a movie shot in the English have better ratings?
+- Does a movie shot in the English have more award nominations?
 
 <a name="dataset"></a>
 
