@@ -1,9 +1,11 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Title of My Project
-*[Your Name]*
+Matheus Sartortt
 
-*[Your Cohort, Campus & Date]*
+[Cohort](https://my.ironhack.com/cohorts/5f60a919b77d4c478c04cf99/profile) 
+Campus: Ironhack LIsbon
+Date: March 12th 2022
 
 ## Content
 - [Project Description](#project-description)
@@ -11,40 +13,44 @@
 - [Dataset](#dataset)
 - [Workflow](#workflow)
 - [Organization](#organization)
-- [Links](#links)
 
 <a name="project-description"></a>
 
 ## Project Description
-Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show. 
+The main challenge of this project was to create a webscraping code to collect data from movies through [IMDB](https://www.imdb.com/)  website and, later, work on the data (cleaning and formatting) in addition to evaluating metrics by hypothesis testing. 
 
 <a name="hypotheses-/-questions"></a>
 
 ## Hypotheses / Questions
-What are the questions you would like to answer with your project? Write your hypotheses here.
+1. Evaluating the country where the movie was shot:
+a. Does a movie shot in the USA have better ROI?
+b. Does a movie shot in the USA have better ratings?
+c. Does a movie shot in the USA have more award nominations?
+
+2. Evaluating the language spoken on the movie:
+a. Does a movie shot in English have better ROI?
+b. Does a movie shot in the English have better ratings?
+c. Does a movie shot in the English have more award nominations?
 
 <a name="dataset"></a>
 
 ## Dataset
-Where did you get your data? What dataset did you use or did you build your own datset? If so, did you use an API? Did you scrape a web? Provide links to the data if available.
+The dataset was obtained from the IMDB website. The main focus was to evaluate every movie launched in 2021, registered in IMDB.
 
-[Dataset]() 
+[IMDB](https://www.imdb.com/search/title/?title_type=feature,tv_movie&release_date=2021-01-01,2021-12-31)
 
 <a name="workflow"></a>
 
 ## Workflow
-Outline the workflow you used in your project. What were the steps you went through?
+The project is divided into 4 parts, each with its own .py file for better organization. The flow was as follows:
+
+1. [Create list timeframe:](https://github.com/msartortt/Project-Week-6/blob/master/your-project/01_create_list_timeframe.py) here we select the time cut to be evaluated and get all the movies registered on IMDB in this period;
+2. [Create movies info dataframe:](https://github.com/msartortt/Project-Week-6/blob/master/your-project/02_create_movies_info_dataframe.py) here a webscraping is run to collect all the information to be evaluated about each movie (each line represents a movie);
+3. [Create movies ratings dataframe:](https://github.com/msartortt/Project-Week-6/blob/master/your-project/03_create_movies_ratings_dataframe.py) here a second webscraping is run to collect all ratings for each movie, divided into voter genre and age group;
+4. [Run movies statistical analysis:](https://github.com/msartortt/Project-Week-6/blob/master/your-project/04_run_movies_statistical_analysis.py) this code cleans, format and evaluates the main data, including hypothesis tests.
 
 <a name="organization"></a>
 
 ## Organization
-How did you organize yourself? Did you use any tools?
+For this project, Anaconda Spyder was used as code editor. For the data visualization part, [Tableau](https://public.tableau.com/app/profile/matheus8205/viz/project_imbd/Dashboard?publish=yes)  was used.
 
-<a name="links"></a>
-
-## Links
-Include the links to your repository, slides and trello. Feel free to include any other links associated to your project. 
-
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
